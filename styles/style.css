@@ -14,20 +14,33 @@ header{
     width: 336px;
     height: 75px;
     border: 2px solid white;
-    margin-left: 300px;
+    margin-left: 210px;
 }
-
-.btns{
-
+.btns{page-orientation: 48px
+    ;
+width: 339px;
+height: 75px;
+border: 2px solid white;
+margin-bottom: 250px;
 }
 
 /* il sagit de  section principale */
 section{ color: rgb(16, 202, 47);
+.bloc-titre-main {
+    width: 569px;
+    height: 277px;
+    border: 2px solid white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: left 210px;;
 
+    display: inline-block;
+    position: sticky ;
+}
 }
 
 /* il sagit du footer, pied de page */
-footer{
+footer{height: ;
 
 }
 
