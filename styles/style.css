@@ -1,0 +1,33 @@
+body{
+    background-color: red;
+}
+
+/* il sagit du header l'entête */
+header{
+    background-color: blue;
+    height: 79px;
+    border: 2px solid black;
+
+}
+
+.logo{
+    width: 336px;
+    height: 75px;
+    border: 2px solid white;
+    margin-left: 300px;
+}
+
+.btns{
+
+}
+
+/* il sagit de  section principale */
+section{ color: rgb(16, 202, 47);
+
+}
+
+/* il sagit du footer, pied de page */
+footer{
+
+}
+
