@@ -1,0 +1,37 @@
+
+
+.container{
+display: flex;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+ 
+.box{
+    flex:1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+}
+
+.box1 {background-color: #f00;
+}   
+
+.box2 {background-color: #0f0;
+}   
+
+.box3 {background-color: #00f;
+}   
+
+.box4 {background-color: #000;
+}   
+
+.box5 {background-color: #eee;
+}   
+
+.box6 {background-color: rgb(133, 115, 115);
+}   
+
+.box7 {background-color: rgb(143, 24, 69);
+}   
