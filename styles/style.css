@@ -1,5 +1,8 @@
 body{
     background-color: red;
+    margin: 0px;
+    padding: 0px;
+    align-content: space-between;
 }
 
 /* il sagit du header l'entête */
@@ -7,40 +10,125 @@ header{
     background-color: blue;
     height: 79px;
     border: 2px solid black;
-
+    display: flex;
+    align-items: center; 
 }
+    
 
 .logo{
+     background-color: blueviolet;
+    color: rgb(15, 42, 46);
     width: 336px;
     height: 75px;
     border: 2px solid white;
+    position: relative;
     margin-left: 210px;
+ 
+
 }
-.btns{page-orientation: 48px
-    ;
+.btns{ 
+background-color: blueviolet;
 width: 339px;
 height: 75px;
 border: 2px solid white;
-margin-bottom: 250px;
+position: relative;
+display: flex;
+align-items:center;
+margin-left: auto;
+margin-right: 210px;
+
+
 }
 
 /* il sagit de  section principale */
-section{ color: rgb(16, 202, 47);
-.bloc-titre-main {
-    width: 569px;
-    height: 277px;
-    border: 2px solid white;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding: left 210px;;
+    section{ 
+        background-color: rgb(102, 240, 175);
+        width: 1185px;
+        height: 691px; 
+        justify-content: center;
+        margin: auto;
+        margin-top: 30px;
+        
+    }
+    
+    
+ .bloc-title-main{
+background-color: blueviolet;
+border: 2px solid black;
+width: 569px;
+height: 277px;
+left: 45px;
+margin: auto;
+align-items:center;
+margin-top: 0px;
 
-    display: inline-block;
-    position: sticky ;
+ }
+ .main-text{
+    background-color: rgb(49, 196, 20);
+    border: 2px;
+   width: 516px;
+   height: 180px;
+   display: flex;
+   margin:auto ;
+   align-items: center;
+   margin-top: 10px;
+ }
+
+ .main-butom{
+    background-color: rgb(49, 196, 20);
+     border: 2px;
+    width: 208px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+    ;
+    
+ }
+
+ .bloc-container{
+    background-color: blueviolet;
+    border: 2px ;
+    width: 1132px;
+    height: 230px;
+   
+    
+    position: static;
+    display: flex;
+    margin: auto;
+
+ }
+ .bloc-container-1{
+    background-color: rgb(49, 196, 20) ;
+    border: 2px;
+    width: 360px;
+    height: 200px;
+    margin-right: 5px;
+    margin-bottom:5px ;
+    
 }
+.bloc-container-2 {
+    background-color: aqua ;
+     border: 2px;
+     width: 360px;
+     height: 200px;
+     margin-right: 5px;
+    
+ }
+
+
+    
+.bloc-container-3{
+    background-color: rgb(49, 196, 20) ;
+    border: 2px;
+    width: 360px;
+    height: 200px;
+    
 }
+
 
 /* il sagit du footer, pied de page */
-footer{height: ;
+footer{
 
 }
-
