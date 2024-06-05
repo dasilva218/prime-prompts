@@ -1,37 +1,44 @@
-
-
-.container{
-display: flex;
-flex-wrap: wrap;
-max-width: 1200px;
-margin: 0 auto;
-}
- 
-.box{
-    flex:1 1 300px;
+header, nav, section, aside, article, footer{
+    padding: 8px;
     margin: 10px;
-    padding: 20px;
-    background-color: red;
-    text-align: center;
+    font-size: 20px;
 }
 
-.box1 {background-color: #f00;
-}   
 
-.box2 {background-color: #0f0;
-}   
 
-.box3 {background-color: #00f;
-}   
+header{
+    background-color: rgb(49, 7, 39);
+    height: 68px;
+    width: 1728px;
+}
 
-.box4 {background-color: #000;
-}   
+nav{
+    background-color: rgb(94, 169, 235);
+    height: 194px;
+    width: 517px;
+    margin:0 auto;
+}
 
-.box5 {background-color: #eee;
-}   
+section{
+    display: flex;
+    background-color: rgb(189, 116, 21);
+    
+}
 
-.box6 {background-color: rgb(133, 115, 115);
-}   
+aside{
+    background-color: rgb(153, 62, 104);
+    height:184px;
+    width:360px; 
+}
 
-.box7 {background-color: rgb(143, 24, 69);
-}   
+article{
+    background-color: rgb(9, 143, 143);
+    height: 184px;
+    width: 360px;
+}
+
+footer{
+    background-color: rgb(26, 236, 44);
+    height: 148px;
+    width: 1728px;
+}
