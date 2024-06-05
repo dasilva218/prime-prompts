@@ -1,3 +1,83 @@
 body{
+    height: 95vh;
     background-color: blueviolet;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
+ header{
+    background: gainsboro;
+    padding: 2em 0 2em 0;
+    margin-bottom: 20px;
+ }
+ .logo-group{
+    display: flex;
+ }
+ 
+ .btn-1{
+    width: 83px;
+    height: 42px;
+    background-color: aquamarine;
+ }
+
+ .btn-2{
+    width: 214px;
+    height: 42px;
+    background-color: rgb(43, 107, 86);
+ }
+
+ .btn-group{
+    display: flex;
+ }
+
+ .navbar{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+ }
+ 
+ .logo-image{
+    width: 106px;
+    height: 42px;
+    background-color: aquamarine;
+ }
+
+ .logo-text{
+    width: 140px;
+    height: 42px;
+    background-color: rgb(91, 44, 136);
+ }
+ .main{
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+ }
+ .left{
+    background: green;
+    padding: 40px 0 20px 0;
+    flex: 1 1 10px;
+    margin: 20px;
+ }
+ .center{
+    background: green;
+    padding: 40px 0 20px 0;
+    flex: 1 1 10px;
+    margin: 20px;
+ }
+ .main{
+    background: gold;
+    padding: 40px 0 20px 0;
+    flex: 5 5 15px;
+    margin-bottom: 20px;
+ }
+ .right{
+    background: blue;
+    padding: 40px 0 20px 0;
+    flex: 1 1 10px;
+    margin: 20px;
+ } 
+ footer{
+    background: red;
+    padding: 5em 0 1em 0;
+    margin-top: 20px;
+ }
