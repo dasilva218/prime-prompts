@@ -1,0 +1,169 @@
+.frame {
+    width: 1728px;
+    height: 1117px;
+    margin: 0px;
+}
+
+.logo-image {
+    /* display: inline-block; */
+    width: 106px;
+    height: 42px;
+    background-color: aqua;
+}
+
+.logo-text {
+    /* display: inline-block; */
+    width: 140px;
+    height: 42px;
+    background-color: rgb(35, 51, 51);
+}
+
+.logo-group {
+    display: flex;
+}
+
+.nav-btn-group {
+    display: flex;
+}
+
+.nav-btn-1 {
+    /* display: inline-block; */
+    width: 83px;
+    height: 42px;
+    background-color: rgb(196, 223, 223);
+}
+
+.nav-btn-2 {
+    /* display: inline-block; */
+    width: 214px;
+    height: 42px;
+    background-color: rgb(170, 182, 182);
+}
+
+.navbar {
+    display: flex;
+    height: 74px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 303px;
+}
+
+.section-titre {
+    width: 500px;
+    height: 84px;
+    background-color: rgb(170, 182, 182);
+    margin-bottom: 32px;
+}
+
+.section-paragraphe {
+    width: 500px;
+    height: 52px;
+    background-color: rgb(115, 190, 144);
+    margin-bottom: 28px;
+}
+
+.section-btn {
+    width: 212px;
+    height: 41px;
+    background-color: rgb(170, 182, 182);
+    margin: 0 auto;
+}
+
+.section-head {
+    width: 500px;
+    margin: 160px auto;
+}
+
+.card-icone {
+    width: 43px;
+    height: 43px;
+    background-color: rgb(170, 182, 182);
+    margin-bottom: 25px;
+}
+
+.card-titre {
+    height: 20px;
+    background-color: rgb(170, 182, 182);
+    margin-bottom: 24px;
+}
+
+.card-paragraphe {
+    height: 27px;
+    background-color: rgb(170, 182, 182);
+}
+
+.card {
+    width: 310px;
+    height: 134px;
+    background-color: rgb(78, 45, 2);
+    padding: 25px 25px 21px 25px;
+}
+
+.card-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.link1 {
+    width: 219px;
+    height: 20px;
+    background-color: rgb(170, 182, 182);
+}
+
+.link2 {
+    width: 136px;
+    height: 20px;
+    background-color: rgb(58, 70, 70);
+}
+
+.link3 {
+    width: 213px;
+    height: 20px;
+    background-color: rgb(51, 67, 155);
+}
+
+.link-group {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-logo {
+    width: 104px;
+    height: 40px;
+    background-color: rgb(58, 70, 70);
+}
+
+.footer-logo-text {
+    width: 141px;
+    height: 40px;
+    background-color: rgb(58, 70, 70);
+}
+
+.footer-logo-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 303px;
+    height: 150px;
+    background-color: rgb(58, 70, 70, 0.5);
+    align-items: center;
+}
+
+.footer-icone {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(39, 250, 250);
+}
+
+.footer-icone-group {
+    display: flex;
+    gap: 42px;
+}
