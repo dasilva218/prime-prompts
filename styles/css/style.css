@@ -1,0 +1,28 @@
+@import url(global.css);
+@import url(section/header.css);
+@import url(section/section.css);
+@import url(section/footer.css);
+
+
+
+
+:root{
+    --police: 'Times New Roman', Times, serif;
+    --primary-color:  0, 0, 0;
+    --secondary-color: 255, 255, 255;
+
+    --blue-color: 31, 132 ,239;
+    --red-color: 227, 7, 68;
+    --yellow-color: 255,210,127;
+    --green-color: 6, 224, 127;
+
+    --healine-font-size: 42px;
+    --headline-font-weight:700;
+
+    --subhealine-font-size:22px;
+    --subheadline-font-weight:400;
+
+ 
+ 
+    --body-font-size:18px;
+}
