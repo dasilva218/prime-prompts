@@ -1,0 +1,27 @@
+@import url(styles/style/header.css);
+@import url(styles/style/main.css);
+
+
+* {
+margin: 0;
+padding: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+html,
+body {
+height: 100%;
+background-color: rgba(0, 0, 0, 0.801);
+}
+
+
+.logo--header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+
+}
