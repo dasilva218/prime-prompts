@@ -134,7 +134,7 @@ h1{
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-p);
     line-height: var(--line-height-p);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .section-block{
@@ -175,13 +175,12 @@ h1{
     display: flex;
     justify-content: center;
     gap: 20em;
-   margin: 30px;
-   height: 120px;
+   height: 92px;
    background-color: var(--color-noir);
    color: var(--color-blanch);
    font-size: var(--font-size-foot);
    font-weight: var(--font-weight-foot);
-   padding: 30px;
+   padding: 20px;
 }
 
 .icon{
