@@ -149,6 +149,7 @@ h1{
 .card-p{
     font-size: var(--font-size);
     font-weight: var(--font-weight);
+    margin-top: 15px;
 }
 .item{
     border-radius:10px ;
@@ -158,6 +159,7 @@ h1{
     font-size: var(--font-size-card);
     font-weight: var(--font-weight-card);
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 10px;
 } 
 .item3{
@@ -185,6 +187,6 @@ h1{
 
 .icon{
     display: flex;
-    gap: 12px;
+    gap: 25px;
 }
 
