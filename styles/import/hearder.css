@@ -1,0 +1,73 @@
+.header{
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+}
+
+.header_nav {
+    width: 100%;
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: 40% 20%;
+    grid-area: auto;
+    /* align-items: center;
+    justify-content: space-between;
+    padding: 0 10px; */
+    
+   
+}
+
+
+/* partie logo 
+1. logo texte 
+2. logo image
+
+*/
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.nav_logo-img{
+    width: 100px;
+    height: auto;
+}
+.nav_logo-title{
+    font-size: 42px;
+}
+.nav_auth{
+    display: flex;
+    gap: 24px;
+}
+/* les bouttons */
+.nav_auth-button{
+    padding: 10px;
+    font-size: 42px;
+    border: none;
+    border-radius: 10px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.nav_auth-button--signin{
+    padding: 10px 20px;
+    background-color: white;
+    color:#000;
+}
+.nav_auth-button--signin:hover{
+    background-color: green;
+    color:white;
+}
+.nav_auth-button--signup{
+    padding: 10px 20px;
+    width: 500px;
+    background-color: #000;
+    color: white;
+}
+.nav_auth-button--signup:hover{
+    background-color: red;
+    color: black;
+
+}

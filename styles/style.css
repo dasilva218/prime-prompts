@@ -1,0 +1,6 @@
+@import url("import/global.css");
+@import url("import/hearder.css");
+
+:root{
+    --roboto:"roboto", sans-serif;
+}
