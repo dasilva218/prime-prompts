@@ -6,22 +6,26 @@ body{
     padding-bottom: 20px;
 }
  header{
-    background: transparent;
-    padding: 2em 0 2em 0;
+    padding: 0.9% 0;
     margin-bottom: 20px;
-    border-bottom: 30px;
-    border-color: black;
-
+    border-bottom: 2px solid black;
     display: flex;
-    margin-left: 320px;
+
     /* margin-right: 377px; */
  }
  .logo-group{
     display: flex;
+    justify-content: center;
+    gap: 20px;
  }
  
-  nav {
+  .nav {
+   justify-content: space-around;
    display: flex;
+   width: 100%;
+   align-items: center;
+
+
   }
 
  .btn-1{
@@ -35,6 +39,9 @@ body{
    background-color: transparent;
    font-size: 24px;
    border-color: transparent;
+   padding: 10px 15px;
+   cursor: pointer;
+   align-items: center;
  }
   .cta-1:hover{
    box-shadow: rgb(22, 22, 21);
@@ -51,6 +58,8 @@ body{
    background-color: black;
    font-size: 24px;
    color: aliceblue;
+   cursor: pointer;
+
  }
 
  .cta-2:hover{
@@ -63,8 +72,8 @@ body{
 
  .btn-group{
     display: flex;
-    margin-left: 500px;
-    margin-right: 377px;
+    gap: 20px;
+    align-items: center;
  }
 
  .navbar{
@@ -84,19 +93,34 @@ body{
     height: 42px;
     background-color: transparent;
     display: flex;
+    align-items: center;
  }
 
  
 
  .block-center {
+   
    width: 522px;
    height: 248px;
    background-color: transparent;
-   margin-left: 660px;
+   /* margin-left: 660px; */
    margin-top: 145px;
    margin-bottom: 164px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
 
  }
+
+ section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+
   .text-titre {
    font-size: 40px;
    justify-content: center;
@@ -114,8 +138,10 @@ body{
    background-color: rgba(31, 133, 241, 1);
    font-size: 18px;
    color: aliceblue;
-   margin-left: 145px;
    border-color: transparent;
+   cursor: pointer;
+  
+
  
  }
 
@@ -125,8 +151,10 @@ body{
 
  .main{
     display: flex;
-    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
+    gap: 26px;
  }
  .left{
     background: rgba(228, 7, 60, 1);
@@ -134,7 +162,6 @@ body{
     flex: 1 1 10px; */
     width: 375px;
     height: 190px;
-    margin-left: 312px;
     border-radius: 11px;
     padding: 20px;
  }
@@ -144,17 +171,17 @@ body{
     flex: 1 1 10px; */
     width: 375px;
     height: 190px;
-    margin-left: 26px;
     border-radius: 11px;
     padding: 20px;
  }
-
- .main{
-    background: transparent;
-    /* padding: 40px 0 20px 0;
-    flex: 5 5 15px; */
-    margin-top: 0px;
- }
+.right{
+    background: rgba(6, 224, 127, 1);
+    width: 375px;
+    height: 190px;
+    border-radius: 11px;
+    padding: 20px;
+ } 
+ 
  
  h1 {
    text-align: center;
@@ -174,37 +201,29 @@ body{
    color: #000;
   }
 
- .right{
-    background: rgba(6, 224, 127, 1);
-    /* padding: 40px 0 20px 0;
-    flex: 1 1 10px; */
-    width: 375px;
-    height: 190px;
-    margin-left: 26px;
-    border-radius: 11px;
-    padding: 20px;
- } 
+ 
  .pied{
     background: black;
-    width: 100%;
     height: 155px;
     margin-top: 155px;
     display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
    
  }
 
    .bas {
       display: flex;
-      margin-top: 100px;
-      margin-left: 200px;
-      width: 642px;
+      gap: 26px;
+      align-items: center;
    }
 
    .bas-2 {
-      margin-right: 115 px;
-      margin-top: 50px;
-      justify-content: right;
-      margin-left: 600px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
    }
 
    .bas-right {
@@ -222,7 +241,6 @@ body{
    }
 
    a {
-      margin-right: 20px;
       color: aliceblue;
       text-decoration: none;
    }
