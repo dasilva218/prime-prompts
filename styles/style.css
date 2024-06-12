@@ -1,134 +1,174 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
 body{
-    background-color: red;
+   
     margin: 0px;
     padding: 0px;
-    align-content: space-between;
 }
 
 /* il sagit du header l'entête */
 header{
-    background-color: blue;
     height: 79px;
     border: 2px solid black;
     display: flex;
     align-items: center; 
-}
-    
-
+    justify-content: space-around;
+}   
 .logo{
      background-color: blueviolet;
     color: rgb(15, 42, 46);
     width: 336px;
     height: 75px;
     border: 2px solid white;
-    position: relative;
     margin-left: 210px;
- 
+    .con-btn{
 
+    }
 }
 .btns{ 
-background-color: blueviolet;
+background-color: black;
 width: 339px;
 height: 75px;
 border: 2px solid white;
-position: relative;
-display: flex;
 align-items:center;
 margin-left: auto;
 margin-right: 210px;
+}
+.icon{
 
+}
+.textlogo{
+width:153px;
+height: 50px;
+
+}
+.text1{
+    width: 106px ;
+    height: 50px;
+
+}
+.text2{
+    width:220px;
+    height: 50px;
 
 }
 
 /* il sagit de  section principale */
     section{ 
-        background-color: rgb(102, 240, 175);
         width: 1185px;
         height: 691px; 
         justify-content: center;
         margin: auto;
-        margin-top: 30px;
-        
+        margin-top: 30px;        
     }
-    
-    
+
  .bloc-title-main{
-background-color: blueviolet;
-border: 2px solid black;
 width: 569px;
 height: 277px;
 left: 45px;
 margin: auto;
 align-items:center;
 margin-top: 0px;
-
  }
+
  .main-text{
-    background-color: rgb(49, 196, 20);
-    border: 2px;
    width: 516px;
    height: 180px;
    display: flex;
    margin:auto ;
    align-items: center;
    margin-top: 10px;
+  
  }
 
  .main-butom{
-    background-color: rgb(49, 196, 20);
-     border: 2px;
+    background-color: rgba(31, 132, 240, 1);
     width: 208px;
     height: 50px;
     display: flex;
     margin: auto;
     align-items: center;
     margin-top: 10px;
-    ;
-    
+    border-radius: 10px;
  }
 
  .bloc-container{
-    background-color: blueviolet;
     border: 2px ;
     width: 1132px;
     height: 230px;
-   
-    
-    position: static;
+    position: relative;
     display: flex;
-    margin: auto;
-
- }
- .bloc-container-1{
-    background-color: rgb(49, 196, 20) ;
-    border: 2px;
-    width: 360px;
-    height: 200px;
+    margin: 25px;
     margin-right: 5px;
     margin-bottom:5px ;
     
-}
-.bloc-container-2 {
-    background-color: aqua ;
-     border: 2px;
-     width: 360px;
-     height: 200px;
-     margin-right: 5px;
-    
+
  }
-
-
-    
-.bloc-container-3{
-    background-color: rgb(49, 196, 20) ;
+ .bloc-container-1{
+    background-color:rgba(228, 7, 60, 1) ;
     border: 2px;
     width: 360px;
     height: 200px;
+    border-radius: 10px;
     
 }
+.bloc-container-2 {
+    background-color:rgba(255, 210, 0, 1) ;
+     border: 2px;
+     width: 360px;
+     height: 200px; 
+     border-radius: 10px;
+     margin-left: 20px;
+     margin-right: 20px;
+ }
 
+.bloc-container-3{
+    background-color: rgba(6, 224, 127, 1);
+    border: 2px;
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;   
+}
 
 /* il sagit du footer, pied de page */
 footer{
+ 
+    height: 148px;
+    border: 2px;
+    background-color: black;
+     display: flex;
+    align-items: center;
+    margin: auto;
+ 
+}
+.left-content{
+    width:636px;
+    height: 40px;
+    margin: auto;
+    background-color: blueviolet;
+}
+.right-content{
+    width: 297px;
+    height: 122px;
+    margin-right: auto ;
+    display: center;
+    text-decoration-color: aliceblue;
+}
 
+
+.el-up{
+    width: 265px;
+    height: 39px;
+    background-color: rgb(49, 196, 20)  ;
+    margin-bottom: 4px;
+    }
+.el-bot{
+    width: 265px;
+    height: 39px;
+    background-color: rgb(49, 196, 20)px;
+    display: flex;
+    
 }
