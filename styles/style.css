@@ -1,3 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
 body{
+    height: 100%;
     background-color: red;
+
+}
+.header{
+    border: 2px solid black;
+}
+
+.header__nav{
+    width: 1121px;
+    height: 38px;
+    background-color: blue;   
+}
+
+.nav__div1{
+    display: flex;
+
+}
+
+.div__logo1{
+    width: 105px;
+    height: 100%;
+    background-color: yellow;
+
+}
+
+.div__nomdulogo1{
+    width: 143px;
+    height: 100%;
+    background-color: aqua;
 }
