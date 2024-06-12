@@ -14,7 +14,7 @@ body{
 
     display: flex;
     margin-left: 320px;
-    margin-right: 377px;
+    /* margin-right: 377px; */
  }
  .logo-group{
     display: flex;
@@ -63,7 +63,7 @@ body{
 
  .btn-group{
     display: flex;
-    margin-left: 545px;
+    margin-left: 500px;
     margin-right: 377px;
  }
 
@@ -92,7 +92,7 @@ body{
    width: 522px;
    height: 248px;
    background-color: transparent;
-   margin-left: 641px;
+   margin-left: 660px;
    margin-top: 145px;
    margin-bottom: 164px;
 
@@ -112,7 +112,7 @@ body{
    width: 220px ;
    height: 44px;
    background-color: rgba(31, 133, 241, 1);
-   font-size: 14px;
+   font-size: 18px;
    color: aliceblue;
    margin-left: 145px;
    border-color: transparent;
