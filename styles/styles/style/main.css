@@ -1,8 +1,29 @@
 
-.main {
 
-background-color: rgb(253, 253, 253);
+.main {
+width: 100%;
+height: 100%;
+    display: flexbox;
+background-color: rgb(119, 241, 19);
 
 }
 
 
+.contener {
+
+ height: 100%;
+ width: 100%;
+    text-align: center;
+    display: flex-center;
+
+
+}
+
+.haut {
+background-color: rgb(255, 255, 255);
+height: 243px;
+width: 320px;
+display: flexbox;
+justify-content: space-around;
+
+}
