@@ -1,13 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url(global.css);
 @import url(section/header.css);
 @import url(section/section.css);
 @import url(section/footer.css);
+@import url(responsive.css);
 
 
 
 
 :root{
-    --police: 'Times New Roman', Times, serif;
+    --police: "Roboto", sans-serif;
     --primary-color:  0, 0, 0;
     --secondary-color: 255, 255, 255;
 
@@ -22,7 +25,5 @@
     --subhealine-font-size:22px;
     --subheadline-font-weight:400;
 
- 
- 
     --body-font-size:18px;
 }

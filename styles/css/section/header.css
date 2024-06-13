@@ -55,4 +55,39 @@ align-items: center;
 .insrire:hover {
     background-color:rgb(var(--primary-color), 0.5) ;
 }
- 
+  .menu-mobil{
+    display: none;
+    justify-content: center;
+    align-self: center;
+    font-size: 3em;
+ } 
+ .content-menu-mobil{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    box-shadow: -2px 0px 8px rgb(var( --primary-color),0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+ }
+ .nav-mobil{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+    align-items: center;
+ }
+ .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+ }
+ .start{
+    right: 0;
+ }

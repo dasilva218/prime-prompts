@@ -20,10 +20,14 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-bottom: 2em;
 }
-.contentTitle{
+.contentTitle,.contentTitleMobil{
    font-size: 42px; 
    font-weight: 700;
+}
+.contentTitleMobil{
+    display: none;
 }
 .contentParagraphe{
     font-size: 22px;
@@ -72,8 +76,11 @@ justify-content: space-between;
     font-size: var(--subhealine-font-size);
     font-weight: var(--subheadline-font-weight);
 }
-.text{
+.text ,.text-mobil{
     font-size:var(--body-font-size) ;
+}
+.text-mobil{
+    display: block;
 }
 .sectionIcone{
     width: 50px;
