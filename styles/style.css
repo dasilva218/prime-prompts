@@ -45,6 +45,7 @@ main{
 
 }
 
+
 .logo{
     width:196px;
     height:35px ;
@@ -103,10 +104,33 @@ justify-content: center;
 align-items: center;
 }
 .div{
-    width: 663px;
+    width: 595px;
     height: 100%;
-    background-color: darkred;
+    background-color: darkred; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
     
+} 
+
+.h1{
+    width: 100%;
+    height: 235px;
+    background-color: burlywood;
+   
+}
+.paragraphe{
+    width: 100%;
+    height: 140px;
+    background-color: darkgrey;
+}
+.boutonc{
+    width: 214px;
+    height: 44px;
+    background-color: blue;
+    border-radius: 1.5cm;
 }
 .section2{
     width: 1295px;
@@ -119,14 +143,52 @@ align-items: center;
     width: 379px;
     height: 100% ;
     background-color: crimson;
-
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-direction: column;
 }
 
+.icony{
+  width:45px ; 
+  height:45px ; 
+  background-color: rgb(222, 161, 70);
+} 
+.titre1{
+    width:179px ;
+    height: 36px;
+    background-color: darkcyan;
+}
 .promp-pt2{
     width: 379px;
     height: 100% ;
     background-color: darkgoldenrod;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-direction: column;
+} 
+.icony2{
+    width:45px ; 
+    height:45px ; 
+    background-color: rgb(222, 161, 70);
+  } 
+.titre2{
+      width:179px ;
+      height: 36px;
+      background-color: darkcyan;
+  }
+  .texte2{
+    width: 255px;
+    height: 41px;
+    background-color: blanchedalmond;
+  }
 
+.texte1{
+    width: 255px;
+    height: 41px;
+    background-color: blanchedalmond;
 }
 .promp-pt3{
     width: 379px;
