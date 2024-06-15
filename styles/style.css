@@ -226,7 +226,6 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-
     height: 150px;
     background-color: rgba(0, 0, 0, 1);
     align-items: center;
@@ -260,7 +259,8 @@ footer {
 .footer-info {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 20px;
+    padding: 5px 0;
 }
 
 .footer-logo-text {
