@@ -1,0 +1,151 @@
+/* Responsive pour mobile */
+
+
+@media screen and (max-width: 500px) {
+    .main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 20px;
+       justify-content: center;
+
+    }
+
+    .block-center{
+       width: 300px;
+       margin-top: 80px;
+ margin-bottom: 120px;
+    }
+
+
+.left{
+ background: rgba(228, 7, 60, 1);
+ width: 225px;
+ height: 140px;
+ border-radius: 11px;
+ padding: 20px;
+}
+.center{
+ background: rgba(255, 211, 3, 1);
+ width: 225px;
+ height: 140px;
+ border-radius: 11px;
+ padding: 20px;
+}
+.right{
+ background: rgba(6, 224, 127, 1);
+ width: 225px;
+ height: 140px;
+ border-radius: 11px;
+ padding: 20px;
+} 
+ 
+    
+h1 {
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+h2 {
+ color: aliceblue;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+p {
+ color: aliceblue;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+    .bas {
+       display: flex;
+       gap: 16px;
+       flex-direction: column;
+       justify-content: center;
+    }
+ 
+    a {
+       color: aliceblue;
+       text-decoration: none;
+       font-size: 10px;
+    }
+
+    .pied{
+       background: black;
+       height: 155px;
+       margin-top: 50px;
+       display: flex;
+       justify-content: space-between;
+       padding-left: 5%;
+       padding-right: 5%;
+      
+    }
+
+    .text-foot {
+       color: aliceblue;
+       font-size: 15px;
+    }
+
+    .texte-header {
+       font-size: 15px;
+       align-items: center;
+       
+    }
+    .logo-haut {
+       width: 75px;
+       height: auto;
+    }
+    
+    .logo-bas {
+       width: 50px;
+       height: auto;
+    }
+
+    .icon {
+       display: flex;
+       gap: 10px;
+    }
+
+
+.logo-text{
+ width: 100px;
+ height: 40px;
+ background-color: transparent;
+ display: flex;
+ align-items: center;
+}
+
+
+.logo-image{
+ width: 50px;
+ height: 42px;
+ background-color: transparent;
+}
+
+.menu {
+ display: flex;
+ width: 20px;
+ height: 20px;
+}
+
+.menu2 {
+    display: none;
+    width: 20px;
+    height: 20px;
+   }
+
+.btn-group {
+ display: none;
+}
+
+body{
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+
+}
+
+
+}
+

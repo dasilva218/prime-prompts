@@ -1,0 +1,93 @@
+header{
+    padding: 0.9% 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    display: flex;
+
+ }
+ .logo-group{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+ 
+  .nav {
+   justify-content: space-around;
+   display: flex;
+   width: 100%;
+   align-items: center;
+
+
+  }
+
+ .btn-1{
+    width: 124px;
+    height: 42px;
+    background-color: transparent;
+ }
+ .cta-1 {
+   width: 124px ;
+   height: 42px;
+   background-color: transparent;
+   font-size: 24px;
+   border-color: transparent;
+   padding: 10px 15px;
+   cursor: pointer;
+   align-items: center;
+ }
+  .cta-1:hover{
+   box-shadow: rgb(22, 22, 21);
+  }
+
+ .btn-2{
+    width: 269px;
+    height: 42px;
+    background-color: transparent;
+ }
+ .cta-2 {
+   width: 269px ;
+   height: 42px;
+   background-color: black;
+   font-size: 24px;
+   color: aliceblue;
+   cursor: pointer;
+
+ }
+
+ .cta-2:hover{
+   box-shadow: rgb(68, 67, 67);
+  }
+
+   button {
+      border-radius: 10px;
+   }
+
+ .btn-group{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+
+ .navbar{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+ }
+ 
+ .logo-image{
+    width: 106px;
+    height: 42px;
+    background-color: transparent;
+ }
+
+ .logo-text{
+    width: 165px;
+    height: 42px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+ }
+
+ .menu {
+   display: none;
+}

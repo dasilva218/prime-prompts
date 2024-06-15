@@ -1,0 +1,44 @@
+
+ 
+ .pied{
+    background: black;
+    height: 155px;
+    margin-top: 155px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+ }
+
+   .bas {
+      display: flex;
+      gap: 26px;
+      align-items: center;
+   }
+
+   .bas-2 {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .bas-right {
+      display: flex;
+   }
+
+   .icon {
+      display: flex;
+      gap: 30px;
+   }
+
+   .text-foot {
+      color: aliceblue;
+      font-size: 20px;
+   }
+
+   a {
+      color: aliceblue;
+      text-decoration: none;
+   }
