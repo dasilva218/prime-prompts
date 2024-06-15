@@ -90,6 +90,10 @@ body{
     border-radius: 11px;
     padding: 20px;
  } 
+
+ .menu2 {
+   display: none;
+ }
  
  
  h1 {
