@@ -293,7 +293,7 @@ input {
 }
 
 input:checked ~ .nav-btn-group {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 input:checked ~ .navbar-toggler .bar:nth-child(1) {
