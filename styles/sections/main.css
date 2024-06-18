@@ -1,0 +1,106 @@
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px 10px;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.main-titre h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49.22px;
+}
+
+.main-paragraphe p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.main-btn {
+    width: 212px;
+    height: 41px;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.main-btn:hover {
+    background-color: var(--blue-color-hover);
+}
+
+.main-btn p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.card-group {
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.card-icone {
+    width: 43px;
+    height: 43px;
+}
+
+.card-titre {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.card-paragraphe {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.card-1 {
+    background-color: rgb(228, 7, 60);
+}
+
+.card-2 {
+    background-color: rgb(255, 210, 0);
+}
+
+.card-3 {
+    background-color: rgb(6, 224, 127);
+}
+
+.card-titre p, .card-paragraphe p {
+    color: var(--secondary-color);
+}
