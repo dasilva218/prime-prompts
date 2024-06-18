@@ -57,7 +57,7 @@
 }
 
 .nav-btn-2 {
-    background-color: rgb(0, 0, 0);
+    background-color: var(--primary-color);
     font-weight: 400;
     color: white;
 }
