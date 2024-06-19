@@ -93,7 +93,7 @@ input {
 }
 
 input:checked~.nav-btn-group {
-    transform: translateX(0);
+    opacity: 1;
 }
 
 input:checked~.navbar-toggler .bar:nth-child(1) {
