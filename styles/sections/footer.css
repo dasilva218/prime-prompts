@@ -29,7 +29,7 @@ footer {
 .link-group p {
     color: #fff;
     font-weight: 400;
-    font-size: 18;
+    font-size: 18px;
 }
 
 .footer-info {
@@ -37,6 +37,12 @@ footer {
     flex-direction: column;
     gap: 20px;
     padding: 5px 0;
+}
+
+.footer-logo-group {
+    display: flex;
+    gap: 14px;
+    align-items: center;
 }
 
 .footer-logo-text {
@@ -47,12 +53,6 @@ footer {
     color: #fff;
     font-size: 22px;
     font-weight: 500;
-}
-
-.footer-logo-group {
-    display: flex;
-    gap: 14px;
-    align-items: center;
 }
 
 .footer-icone-group {

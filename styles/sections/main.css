@@ -45,7 +45,7 @@
     margin: 0 auto;
     border: none;
     color: var(--secondary-color);
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 .main-btn:hover {
